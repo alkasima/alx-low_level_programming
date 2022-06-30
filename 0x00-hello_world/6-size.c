@@ -1,10 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * main - Starting point
  *
- * Return: 0 which means success
+ * Return: 0 means success
  */
-int main (void)
+int main(void)
 {
 int a;
 long int b;
