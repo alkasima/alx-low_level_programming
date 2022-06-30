@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- *My first c programming code in alx
+ *main - Starting point
+ *
+ * Return: 0 means success
  */
 
 int main(void)
