@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
  * main - Starting point
  *
@@ -8,12 +7,12 @@
  */
 int main(void)
 {
-	char low;
+	char ch;
 
-	for (low = 'a'; low <= 'z'; low++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(low);
-		printf("\n");
+		putchar(ch);
 	}
+putchar('\n');
 return (0);
 }
