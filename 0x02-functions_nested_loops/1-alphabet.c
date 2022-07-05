@@ -9,18 +9,20 @@
 int main(void)
 {
 	print_alphabet();
-	_putchar('\n');
+
 }
 
 /* Function to return alphabet a -z */
 
-int print_alphabet()
+void print_alphabet(void)
 {
-	char ch;
+	int num;
 	
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (num = 'a'; num <= 'z'; num++)
 	{
-		_putchar(ch);
+		putchar(num);
 	}
+
+	putchar('\n');
 	
 }
