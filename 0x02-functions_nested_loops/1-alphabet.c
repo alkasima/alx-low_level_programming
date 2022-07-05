@@ -6,14 +6,21 @@
  * Return: 0 always success
  */
 
-void print_alphabet(void)
+int main(void)
+{
+	print_alphabet();
+	_putchar('\n');
+}
+
+/* Function to return alphabet a -z */
+
+int print_alphabet()
 {
 	char ch;
-
+	
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		_putchar(ch);
 	}
-
-	_putchar('\n');
+	
 }
