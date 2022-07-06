@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
  * main - program to print alphabet using _putchar
  *
  * Return: 0 always success
  */
-
 int print_alphabet(void)
 {
 	char c;
@@ -14,7 +12,6 @@ int print_alphabet(void)
 	{
 		_putchar(c);
 	}
-
 	_putchar('\n');
 	return (0);
 }
