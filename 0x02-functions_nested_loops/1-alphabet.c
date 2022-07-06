@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * print_alphabet - program to print alphabet using _putchar
  *
  * Return: 0 always success
  */
+
 int print_alphabet(void)
 {
 	char c;
