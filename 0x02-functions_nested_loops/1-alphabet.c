@@ -7,14 +7,6 @@
  * Return: 0 always success
  */
 
-int main(void)
-{
-	print_alphabet();
-
-}
-
-/* Function to return alphabet a -z */
-
 void print_alphabet(void)
 {
 	int num;
@@ -25,5 +17,7 @@ void print_alphabet(void)
 	}
 
 	_putchar('\n');
-	
+	return (0);
+
 }
+
