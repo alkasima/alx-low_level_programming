@@ -3,7 +3,7 @@
 /**
  * main - Program to print _putchar
  *
- * Return - 0 always success
+ * Return: 0 always success
  */
 
 int main(void)
@@ -16,6 +16,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 }
