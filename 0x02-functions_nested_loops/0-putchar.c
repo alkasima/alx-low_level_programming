@@ -1,4 +1,4 @@
-#include "main.h";
+#include "main.h"
 
 /**
  * main - C program to print _putchar
