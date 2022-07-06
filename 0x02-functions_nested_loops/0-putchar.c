@@ -1,18 +1,21 @@
 #include "main.h"
 
 /**
- * main - C program to print _putchar
+ * main - Program to print _putchar
  *
- * Return: 0 always success
+ * Return - 0 always success
  */
 
 int main(void)
 {
-	_putchar('m');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
 	_putchar('a');
-	_putchar('i');
-	_putchar('n');
-	_putchar('\n');
+	_putchar('r');
 
 	return (0);
 }
