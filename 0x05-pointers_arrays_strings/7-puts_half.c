@@ -29,7 +29,7 @@ void puts_half(char *str)
 
 	k = len - new;
 
-	while (*(str + j) != '\0')
+	while (*(str + k) != '\0')
 	{
 		_putchar(*(str + k));
 		k++;
