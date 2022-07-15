@@ -8,7 +8,6 @@
  *
  * Return: The pointer to the result dest
  */
-
 char *_strncat(char *dest, char *src, int n)
 {
 	int len;
