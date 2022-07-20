@@ -3,6 +3,7 @@
 /**
  * is_prime_number - Returns if a number is prime
  * @n: number to be checked for
+ * @i: iteration times
  *
  * Return: Int value
  */
