@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main- Prints the name of the program
+ * main - Prints the name of the program
  * @argc: Number of arguments
  * @argv: Array name
  * Return: 0 success
