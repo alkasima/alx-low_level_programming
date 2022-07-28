@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _calloc - ...
+ * _calloc - memory allocation
  * @nmemb: The number of members
  * @size: size
  *
@@ -13,14 +13,14 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	int i = 0; l = 0;
 	char *p;
 
-	if nmemb == 0 || size == 0)
+	if (nmemb == 0 || size == 0)
 	{
 		return (NULL);
 	}
 	l = nmemb * size;
 	p = malloc(1);
 
-	if(p == NULL)
+	if (p == NULL)
 	{
 		return (NULL);
 	}
